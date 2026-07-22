@@ -2,8 +2,8 @@ import './App.css'
 import { useState, useEffect } from 'react';
 import { createClient } from '@supabase/supabase-js';
 
-const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
-const supabaseKey = import.meta.env.VITE_SUPABASE_ANON_KEY;
+const supabaseUrl = 'https://ciddpvkcdoevfprlzhtg.supabase.co';
+const supabaseKey = 'sb_publishable_F10DXS9eoGkfmLuzf5J2lQ_T8jf2oLJ';
 const supabase = createClient(supabaseUrl, supabaseKey);
 
 export default function AdminPanel() {
